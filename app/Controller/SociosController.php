@@ -40,6 +40,32 @@ class SociosController extends AppController {
 		$this->set('socio', $this->Socio->find('first', $options));
 		//$this->set('socio', $this->Socio->find('list', array('fields' => array('id', 'nombre_apellido'))));
 	}
+/**
+ * verify method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function verify() {
+	/*	if (!$this->Socio->exists($id)) {
+			throw new NotFoundException(__('Invalid socio'));
+		}
+		$options = array('conditions' => array('Socio.' . $this->Socio->primaryKey => $id));
+		$this->set('socio', $this->Socio->find('first', $options));
+		//$this->set('socio', $this->Socio->find('list', array('fields' => array('id', 'nombre_apellido'))));
+		*/
+			if ($this->request->is('post')) {
+				
+				$dni = $this->request->data['Socio']['dni'];
+			//	$this->Socio->findByDni($dni);
+			//$this->Socio->recursive = -1;
+			$socio = $this->Socio->findByDni($dni);
+			//debug($socio);
+				$this->set('socio', $this->Socio->findByDni($dni));
+			}
+		
+	}
 
 /**
  * add method

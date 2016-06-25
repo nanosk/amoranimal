@@ -28,7 +28,7 @@
 		<td>
 			<?php echo $this->Html->link($usuario['TipoUsuario']['tipo'], array('controller' => 'tipo_usuarios', 'action' => 'view', $usuario['TipoUsuario']['id'])); ?>
 		</td>
-		<td><?php echo h($usuario['Usuario']['activo']); ?>&nbsp;</td>
+		<td><?php echo ($usuario['Usuario']['activo']==1) ? "Si":"No"; ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $usuario['Usuario']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $usuario['Usuario']['id'])); ?>
