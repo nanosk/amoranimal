@@ -1,0 +1,17 @@
+<!-- File: /app/View/Posts/edit.ctp -->
+
+<div class="span10 offset1">
+<h3>Editar Estados</h3>
+
+
+<?php
+
+echo $this->Form->create('Estado', array('action' => 'edit'));
+echo $this->Form->input('descripcion');
+echo $this->Form->input('id', array('type' => 'hidden'));
+
+echo $this->Form->end('Actualizar');
+
+?>
+
+</div>

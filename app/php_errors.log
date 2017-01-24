@@ -1,0 +1,268 @@
+[25-Sep-2016 14:22:48 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/ubuntu/workspace/app/Controller/CuotasController.php on line 116
+[25-Sep-2016 14:22:48 UTC] PHP Stack trace:
+[25-Sep-2016 14:22:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[25-Sep-2016 14:22:48 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[25-Sep-2016 14:22:48 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:156
+[25-Sep-2016 14:22:48 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:233
+[25-Sep-2016 14:22:48 UTC] PHP   5. class_exists() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[25-Sep-2016 14:22:48 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[25-Sep-2016 14:22:48 UTC] PHP   7. App::load() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[01-Oct-2016 12:49:26 UTC] PHP Fatal error:  Call to a member function set() on a non-object in /home/ubuntu/workspace/app/Controller/PagosController.php on line 115
+[01-Oct-2016 12:49:26 UTC] PHP Stack trace:
+[01-Oct-2016 12:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[01-Oct-2016 12:49:26 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[01-Oct-2016 12:49:26 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[01-Oct-2016 12:49:26 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[01-Oct-2016 12:49:26 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 12:49:26 UTC] PHP   6. PagosController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 12:49:50 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/app/Controller/PagosController.php on line 115
+[01-Oct-2016 12:49:50 UTC] PHP Stack trace:
+[01-Oct-2016 12:49:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[01-Oct-2016 12:49:50 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[01-Oct-2016 12:49:50 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:156
+[01-Oct-2016 12:49:50 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:233
+[01-Oct-2016 12:49:50 UTC] PHP   5. class_exists() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[01-Oct-2016 12:49:50 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[01-Oct-2016 12:49:50 UTC] PHP   7. App::load() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[01-Oct-2016 12:50:03 UTC] PHP Fatal error:  Call to a member function set() on a non-object in /home/ubuntu/workspace/app/Controller/PagosController.php on line 115
+[01-Oct-2016 12:50:03 UTC] PHP Stack trace:
+[01-Oct-2016 12:50:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[01-Oct-2016 12:50:03 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[01-Oct-2016 12:50:03 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[01-Oct-2016 12:50:03 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[01-Oct-2016 12:50:03 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 12:50:03 UTC] PHP   6. PagosController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 12:50:40 UTC] PHP Fatal error:  Call to a member function set() on a non-object in /home/ubuntu/workspace/app/Controller/PagosController.php on line 115
+[01-Oct-2016 12:50:40 UTC] PHP Stack trace:
+[01-Oct-2016 12:50:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[01-Oct-2016 12:50:40 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[01-Oct-2016 12:50:40 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[01-Oct-2016 12:50:40 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[01-Oct-2016 12:50:40 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 12:50:40 UTC] PHP   6. PagosController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 12:50:43 UTC] PHP Fatal error:  Call to a member function set() on a non-object in /home/ubuntu/workspace/app/Controller/PagosController.php on line 115
+[01-Oct-2016 12:50:43 UTC] PHP Stack trace:
+[01-Oct-2016 12:50:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[01-Oct-2016 12:50:43 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[01-Oct-2016 12:50:43 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[01-Oct-2016 12:50:43 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[01-Oct-2016 12:50:43 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 12:50:43 UTC] PHP   6. PagosController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 12:55:10 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/PagosController.php on line 115
+[01-Oct-2016 12:55:10 UTC] PHP Stack trace:
+[01-Oct-2016 12:55:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[01-Oct-2016 12:55:10 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[01-Oct-2016 12:55:10 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[01-Oct-2016 12:55:10 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[01-Oct-2016 12:55:10 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 12:55:10 UTC] PHP   6. PagosController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 12:55:51 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/PagosController.php on line 115
+[01-Oct-2016 12:55:51 UTC] PHP Stack trace:
+[01-Oct-2016 12:55:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[01-Oct-2016 12:55:51 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[01-Oct-2016 12:55:51 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[01-Oct-2016 12:55:51 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[01-Oct-2016 12:55:51 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 12:55:51 UTC] PHP   6. PagosController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 14:35:53 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/PromosController.php on line 132
+[01-Oct-2016 14:35:53 UTC] PHP Stack trace:
+[01-Oct-2016 14:35:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[01-Oct-2016 14:35:53 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[01-Oct-2016 14:35:53 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[01-Oct-2016 14:35:53 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[01-Oct-2016 14:35:53 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[01-Oct-2016 14:35:53 UTC] PHP   6. PromosController->edit() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[02-Oct-2016 18:23:28 UTC] PHP Fatal error:  Cannot redeclare GroupsController::$botones in /home/ubuntu/workspace/app/Controller/GroupsController.php on line 37
+[02-Oct-2016 18:23:28 UTC] PHP Stack trace:
+[02-Oct-2016 18:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[02-Oct-2016 18:23:28 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[02-Oct-2016 18:23:28 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:156
+[02-Oct-2016 18:23:28 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:233
+[02-Oct-2016 18:23:28 UTC] PHP   5. class_exists() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[02-Oct-2016 18:23:28 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[02-Oct-2016 18:23:28 UTC] PHP   7. App::load() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[02-Oct-2016 18:24:03 UTC] PHP Fatal error:  Cannot redeclare GroupsController::createform() in /home/ubuntu/workspace/app/Controller/GroupsController.php on line 58
+[02-Oct-2016 18:24:03 UTC] PHP Stack trace:
+[02-Oct-2016 18:24:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[02-Oct-2016 18:24:03 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[02-Oct-2016 18:24:03 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:156
+[02-Oct-2016 18:24:03 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:233
+[02-Oct-2016 18:24:03 UTC] PHP   5. class_exists() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[02-Oct-2016 18:24:03 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[02-Oct-2016 18:24:03 UTC] PHP   7. App::load() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[20-Jan-2017 03:05:34 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/app/View/Elements/row.ctp on line 26
+[20-Jan-2017 03:05:34 UTC] PHP Stack trace:
+[20-Jan-2017 03:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[20-Jan-2017 03:05:34 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[20-Jan-2017 03:05:34 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[20-Jan-2017 03:05:34 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:198
+[20-Jan-2017 03:05:34 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:954
+[20-Jan-2017 03:05:34 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:471
+[20-Jan-2017 03:05:34 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:910
+[20-Jan-2017 03:05:34 UTC] PHP   8. include() /home/ubuntu/workspace/lib/Cake/View/View.php:948
+[20-Jan-2017 03:05:34 UTC] PHP   9. View->element() /home/ubuntu/workspace/app/View/Comercios/view.ctp:23
+[20-Jan-2017 03:05:34 UTC] PHP  10. View->_renderElement() /home/ubuntu/workspace/lib/Cake/View/View.php:418
+[20-Jan-2017 03:05:34 UTC] PHP  11. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:1213
+[20-Jan-2017 03:05:34 UTC] PHP  12. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:910
+[20-Jan-2017 03:05:34 UTC] PHP  13. include() /home/ubuntu/workspace/lib/Cake/View/View.php:948
+[20-Jan-2017 03:05:34 UTC] PHP  14. View->element() /home/ubuntu/workspace/app/View/Elements/createform.ctp:22
+[20-Jan-2017 03:05:34 UTC] PHP  15. View->_renderElement() /home/ubuntu/workspace/lib/Cake/View/View.php:418
+[20-Jan-2017 03:05:34 UTC] PHP  16. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:1213
+[20-Jan-2017 03:05:34 UTC] PHP  17. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:910
+[21-Jan-2017 17:41:37 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/AppController.php on line 118
+[21-Jan-2017 17:41:37 UTC] PHP Stack trace:
+[21-Jan-2017 17:41:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[21-Jan-2017 17:41:37 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[21-Jan-2017 17:41:37 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[21-Jan-2017 17:41:37 UTC] PHP   4. Controller->startupProcess() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:187
+[21-Jan-2017 17:41:37 UTC] PHP   5. CakeEventManager->dispatch() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:675
+[21-Jan-2017 17:41:37 UTC] PHP   6. call_user_func:{/home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244}() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244
+[21-Jan-2017 17:41:37 UTC] PHP   7. ObjectCollection->trigger() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244
+[21-Jan-2017 17:41:37 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129}() /home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129
+[21-Jan-2017 17:41:37 UTC] PHP   9. AuthComponent->startup() /home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129
+[21-Jan-2017 17:41:37 UTC] PHP  10. AuthComponent->isAuthorized() /home/ubuntu/workspace/lib/Cake/Controller/Component/AuthComponent.php:309
+[21-Jan-2017 17:41:37 UTC] PHP  11. ControllerAuthorize->authorize() /home/ubuntu/workspace/lib/Cake/Controller/Component/AuthComponent.php:465
+[21-Jan-2017 17:41:37 UTC] PHP  12. AppController->isAuthorized() /home/ubuntu/workspace/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php:65
+[21-Jan-2017 17:41:37 UTC] PHP  13. AppController->checkPermiso() /home/ubuntu/workspace/app/Controller/AppController.php:101
+[21-Jan-2017 17:43:06 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/AppController.php on line 118
+[21-Jan-2017 17:43:06 UTC] PHP Stack trace:
+[21-Jan-2017 17:43:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[21-Jan-2017 17:43:06 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[21-Jan-2017 17:43:06 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[21-Jan-2017 17:43:06 UTC] PHP   4. Controller->startupProcess() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:187
+[21-Jan-2017 17:43:06 UTC] PHP   5. CakeEventManager->dispatch() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:675
+[21-Jan-2017 17:43:06 UTC] PHP   6. call_user_func:{/home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244}() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244
+[21-Jan-2017 17:43:06 UTC] PHP   7. ObjectCollection->trigger() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244
+[21-Jan-2017 17:43:06 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129}() /home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129
+[21-Jan-2017 17:43:06 UTC] PHP   9. AuthComponent->startup() /home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129
+[21-Jan-2017 17:43:06 UTC] PHP  10. AuthComponent->isAuthorized() /home/ubuntu/workspace/lib/Cake/Controller/Component/AuthComponent.php:309
+[21-Jan-2017 17:43:06 UTC] PHP  11. ControllerAuthorize->authorize() /home/ubuntu/workspace/lib/Cake/Controller/Component/AuthComponent.php:465
+[21-Jan-2017 17:43:06 UTC] PHP  12. AppController->isAuthorized() /home/ubuntu/workspace/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php:65
+[21-Jan-2017 17:43:06 UTC] PHP  13. AppController->checkPermiso() /home/ubuntu/workspace/app/Controller/AppController.php:101
+[21-Jan-2017 17:44:03 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/AppController.php on line 121
+[21-Jan-2017 17:44:03 UTC] PHP Stack trace:
+[21-Jan-2017 17:44:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[21-Jan-2017 17:44:03 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[21-Jan-2017 17:44:03 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[21-Jan-2017 17:44:03 UTC] PHP   4. Controller->startupProcess() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:187
+[21-Jan-2017 17:44:03 UTC] PHP   5. CakeEventManager->dispatch() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:675
+[21-Jan-2017 17:44:03 UTC] PHP   6. call_user_func:{/home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244}() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244
+[21-Jan-2017 17:44:03 UTC] PHP   7. ObjectCollection->trigger() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244
+[21-Jan-2017 17:44:03 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129}() /home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129
+[21-Jan-2017 17:44:03 UTC] PHP   9. AuthComponent->startup() /home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129
+[21-Jan-2017 17:44:03 UTC] PHP  10. AuthComponent->isAuthorized() /home/ubuntu/workspace/lib/Cake/Controller/Component/AuthComponent.php:309
+[21-Jan-2017 17:44:03 UTC] PHP  11. ControllerAuthorize->authorize() /home/ubuntu/workspace/lib/Cake/Controller/Component/AuthComponent.php:465
+[21-Jan-2017 17:44:03 UTC] PHP  12. AppController->isAuthorized() /home/ubuntu/workspace/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php:65
+[21-Jan-2017 17:44:03 UTC] PHP  13. AppController->checkPermiso() /home/ubuntu/workspace/app/Controller/AppController.php:101
+[21-Jan-2017 17:44:07 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/AppController.php on line 121
+[21-Jan-2017 17:44:07 UTC] PHP Stack trace:
+[21-Jan-2017 17:44:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[21-Jan-2017 17:44:07 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[21-Jan-2017 17:44:07 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[21-Jan-2017 17:44:07 UTC] PHP   4. Controller->startupProcess() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:187
+[21-Jan-2017 17:44:07 UTC] PHP   5. CakeEventManager->dispatch() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:675
+[21-Jan-2017 17:44:07 UTC] PHP   6. call_user_func:{/home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244}() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244
+[21-Jan-2017 17:44:07 UTC] PHP   7. ObjectCollection->trigger() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:244
+[21-Jan-2017 17:44:07 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129}() /home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129
+[21-Jan-2017 17:44:07 UTC] PHP   9. AuthComponent->startup() /home/ubuntu/workspace/lib/Cake/Utility/ObjectCollection.php:129
+[21-Jan-2017 17:44:07 UTC] PHP  10. AuthComponent->isAuthorized() /home/ubuntu/workspace/lib/Cake/Controller/Component/AuthComponent.php:309
+[21-Jan-2017 17:44:07 UTC] PHP  11. ControllerAuthorize->authorize() /home/ubuntu/workspace/lib/Cake/Controller/Component/AuthComponent.php:465
+[21-Jan-2017 17:44:07 UTC] PHP  12. AppController->isAuthorized() /home/ubuntu/workspace/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php:65
+[21-Jan-2017 17:44:07 UTC] PHP  13. AppController->checkPermiso() /home/ubuntu/workspace/app/Controller/AppController.php:101
+[21-Jan-2017 18:10:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/app/Controller/AppController.php on line 113
+[21-Jan-2017 18:10:29 UTC] PHP Stack trace:
+[21-Jan-2017 18:10:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[21-Jan-2017 18:10:29 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[21-Jan-2017 18:10:29 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:156
+[21-Jan-2017 18:10:29 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:233
+[21-Jan-2017 18:10:29 UTC] PHP   5. class_exists() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[21-Jan-2017 18:10:29 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[21-Jan-2017 18:10:29 UTC] PHP   7. App::load() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[21-Jan-2017 18:10:29 UTC] PHP   8. include() /home/ubuntu/workspace/lib/Cake/Core/App.php:565
+[21-Jan-2017 18:10:29 UTC] PHP   9. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Core/App.php:5
+[21-Jan-2017 18:10:29 UTC] PHP  10. App::load() /home/ubuntu/workspace/lib/Cake/Core/App.php:5
+[21-Jan-2017 18:10:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/app/Controller/AppController.php on line 113
+[21-Jan-2017 18:10:29 UTC] PHP Stack trace:
+[21-Jan-2017 18:10:29 UTC] PHP   1. ErrorHandler::handleException() /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php:0
+[21-Jan-2017 18:10:29 UTC] PHP   2. ExceptionRenderer->__construct() /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php:119
+[21-Jan-2017 18:10:29 UTC] PHP   3. ExceptionRenderer->_getController() /home/ubuntu/workspace/lib/Cake/Error/ExceptionRenderer.php:92
+[21-Jan-2017 18:10:29 UTC] PHP   4. class_exists() /home/ubuntu/workspace/lib/Cake/Error/ExceptionRenderer.php:152
+[21-Jan-2017 18:10:29 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Error/ExceptionRenderer.php:152
+[21-Jan-2017 18:10:29 UTC] PHP   6. App::load() /home/ubuntu/workspace/lib/Cake/Error/ExceptionRenderer.php:152
+[21-Jan-2017 18:26:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/app/View/Layouts/AdminLTE2_superadmin.ctp on line 341
+[21-Jan-2017 18:26:52 UTC] PHP Stack trace:
+[21-Jan-2017 18:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[21-Jan-2017 18:26:52 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[21-Jan-2017 18:26:52 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[21-Jan-2017 18:26:52 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:198
+[21-Jan-2017 18:26:52 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:954
+[21-Jan-2017 18:26:52 UTC] PHP   6. View->renderLayout() /home/ubuntu/workspace/lib/Cake/View/View.php:479
+[21-Jan-2017 18:26:52 UTC] PHP   7. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:542
+[21-Jan-2017 18:26:52 UTC] PHP   8. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:910
+[21-Jan-2017 21:59:52 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/app/Controller/AppController.php on line 214
+[21-Jan-2017 21:59:52 UTC] PHP Stack trace:
+[21-Jan-2017 21:59:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[21-Jan-2017 21:59:52 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[21-Jan-2017 21:59:52 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:156
+[21-Jan-2017 21:59:52 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:233
+[21-Jan-2017 21:59:52 UTC] PHP   5. class_exists() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[21-Jan-2017 21:59:52 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[21-Jan-2017 21:59:52 UTC] PHP   7. App::load() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:264
+[21-Jan-2017 21:59:52 UTC] PHP   8. include() /home/ubuntu/workspace/lib/Cake/Core/App.php:565
+[21-Jan-2017 21:59:52 UTC] PHP   9. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Core/App.php:4
+[21-Jan-2017 21:59:52 UTC] PHP  10. App::load() /home/ubuntu/workspace/lib/Cake/Core/App.php:4
+[21-Jan-2017 21:59:52 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/app/Controller/AppController.php on line 214
+[21-Jan-2017 21:59:52 UTC] PHP Stack trace:
+[21-Jan-2017 21:59:52 UTC] PHP   1. ErrorHandler::handleException() /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php:0
+[21-Jan-2017 21:59:52 UTC] PHP   2. ExceptionRenderer->__construct() /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php:119
+[21-Jan-2017 21:59:52 UTC] PHP   3. ExceptionRenderer->_getController() /home/ubuntu/workspace/lib/Cake/Error/ExceptionRenderer.php:92
+[21-Jan-2017 21:59:52 UTC] PHP   4. class_exists() /home/ubuntu/workspace/lib/Cake/Error/ExceptionRenderer.php:152
+[21-Jan-2017 21:59:52 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Error/ExceptionRenderer.php:152
+[21-Jan-2017 21:59:52 UTC] PHP   6. App::load() /home/ubuntu/workspace/lib/Cake/Error/ExceptionRenderer.php:152
+[23-Jan-2017 02:42:11 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/PagosController.php on line 134
+[23-Jan-2017 02:42:11 UTC] PHP Stack trace:
+[23-Jan-2017 02:42:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[23-Jan-2017 02:42:11 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[23-Jan-2017 02:42:11 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[23-Jan-2017 02:42:11 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[23-Jan-2017 02:42:11 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[23-Jan-2017 02:42:11 UTC] PHP   6. PagosController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[23-Jan-2017 02:55:49 UTC] PHP Parse error:  syntax error, unexpected ''monto'' (T_CONSTANT_ENCAPSED_STRING), expecting function (T_FUNCTION) in /home/ubuntu/workspace/app/Model/Pago.php on line 24
+[23-Jan-2017 02:55:49 UTC] PHP Stack trace:
+[23-Jan-2017 02:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[23-Jan-2017 02:55:49 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[23-Jan-2017 02:55:49 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[23-Jan-2017 02:55:49 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[23-Jan-2017 02:55:49 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[23-Jan-2017 02:55:49 UTC] PHP   6. PagosController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[23-Jan-2017 02:55:49 UTC] PHP   7. Controller->__get() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:133
+[23-Jan-2017 02:55:49 UTC] PHP   8. Controller->__isset() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:405
+[23-Jan-2017 02:55:49 UTC] PHP   9. Controller->loadModel() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:367
+[23-Jan-2017 02:55:49 UTC] PHP  10. ClassRegistry::init() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:738
+[23-Jan-2017 02:55:49 UTC] PHP  11. class_exists() /home/ubuntu/workspace/lib/Cake/Utility/ClassRegistry.php:145
+[23-Jan-2017 02:55:49 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Utility/ClassRegistry.php:145
+[23-Jan-2017 02:55:49 UTC] PHP  13. App::load() /home/ubuntu/workspace/lib/Cake/Utility/ClassRegistry.php:145
+[23-Jan-2017 23:37:29 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/PagosController.php on line 150
+[23-Jan-2017 23:37:29 UTC] PHP Stack trace:
+[23-Jan-2017 23:37:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[23-Jan-2017 23:37:29 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[23-Jan-2017 23:37:29 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[23-Jan-2017 23:37:29 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[23-Jan-2017 23:37:29 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[23-Jan-2017 23:37:29 UTC] PHP   6. PagosController->edit() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[23-Jan-2017 23:38:00 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/PagosController.php on line 150
+[23-Jan-2017 23:38:00 UTC] PHP Stack trace:
+[23-Jan-2017 23:38:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[23-Jan-2017 23:38:00 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[23-Jan-2017 23:38:00 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[23-Jan-2017 23:38:00 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[23-Jan-2017 23:38:00 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[23-Jan-2017 23:38:00 UTC] PHP   6. PagosController->edit() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[23-Jan-2017 23:43:47 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/PagosController.php on line 161
+[23-Jan-2017 23:43:47 UTC] PHP Stack trace:
+[23-Jan-2017 23:43:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[23-Jan-2017 23:43:47 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:108
+[23-Jan-2017 23:43:47 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:165
+[23-Jan-2017 23:43:47 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:191
+[23-Jan-2017 23:43:47 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[23-Jan-2017 23:43:47 UTC] PHP   6. PagosController->edit() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490

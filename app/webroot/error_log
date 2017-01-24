@@ -1,0 +1,18 @@
+[20-May-2016 02:00:18 UTC] PHP Warning:  include(Cake/bootstrap.php): failed to open stream: No such file or directory in /home/gymapp/public_html/app/webroot/index.php on line 90
+[20-May-2016 02:00:18 UTC] PHP Warning:  include(): Failed opening 'Cake/bootstrap.php' for inclusion (include_path='/home/gymapp/public_html/lib:.:/usr/lib/php:/usr/local/lib/php') in /home/gymapp/public_html/app/webroot/index.php on line 90
+[20-May-2016 02:00:18 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/gymapp/public_html/app/webroot/index.php on line 99
+[20-May-2016 03:02:41 UTC] PHP Warning:  include(Cake/bootstrap.php): failed to open stream: No such file or directory in /home/gymapp/public_html/app/webroot/index.php on line 90
+[20-May-2016 03:02:41 UTC] PHP Warning:  include(): Failed opening 'Cake/bootstrap.php' for inclusion (include_path='/home/gymapp/public_html/lib:.:/usr/lib/php:/usr/local/lib/php') in /home/gymapp/public_html/app/webroot/index.php on line 90
+[20-May-2016 03:02:41 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/gymapp/public_html/app/webroot/index.php on line 99
+[05-Jun-2016 08:46:11 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/gymapp/public_html/app/Controller/ClientesController.php on line 136
+[05-Jun-2016 08:46:18 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/gymapp/public_html/app/Controller/ClientesController.php on line 136
+[05-Jun-2016 08:46:21 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/gymapp/public_html/app/Controller/ClientesController.php on line 136
+[11-Jun-2016 23:14:48 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/gymapp/public_html/app/Controller/ServiciosController.php on line 24
+[11-Jun-2016 23:14:50 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/gymapp/public_html/app/Controller/ServiciosController.php on line 24
+[12-Jun-2016 16:13:47 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/gymapp/public_html/app/Controller/ServiciosController.php on line 31
+[17-Jun-2016 21:13:51 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/gymapp/public_html/app/Controller/ClientesController.php on line 133
+[17-Jun-2016 21:15:15 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/gymapp/public_html/app/Controller/ClientesController.php on line 133
+[17-Jun-2016 21:15:31 UTC] PHP Parse error:  syntax error, unexpected ''type' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/gymapp/public_html/app/Controller/ClientesController.php on line 85
+[17-Jun-2016 21:31:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/gymapp/public_html/app/View/Clientes/view.ctp on line 3
+[17-Jun-2016 21:44:28 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/gymapp/public_html/app/View/Clientes/index.ctp on line 71
+[17-Jun-2016 21:45:51 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/gymapp/public_html/app/View/Clientes/index.ctp on line 54

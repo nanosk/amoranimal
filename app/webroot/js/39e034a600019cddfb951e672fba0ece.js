@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#clientes").bind("change", function (event) {$.ajax({async:true, data:$("#clientes").serialize(), dataType:"html", success:function (data, textStatus) {$("#rutinaactual").html(data);}, type:"post", url:"\/webs\/gimnasio\/rutinas\/getrutinaactual"});
+return false;});});

@@ -1,0 +1,6 @@
+﻿select
+
+from carritodetalles d
+inner join carritocabeceras c on c.id = d.carritocabecera_id
+where
+d.estado_id = 3

@@ -1,0 +1,82 @@
+Cambios en el core:
+paginator en controller
+paginator en vistas
+convertdatosHelper
+elements.row -  contemplar el valor por defecto
+elements.row -  contemplar archivos en alta y edicion
+
+
+
+
+
+
+1) 
+todos los index deben apuntar al view  OK
+los view deben ser campos bloqueados   OK 
+menu debe quedar activo                OK
+hacer que todos los menus, admin, superadmin, comercio,  puedan ver el menu activado
+hacer activaables el menu de de seguridad, y consultas, mi cuenta
+
+
+
+envio de email de confirmacion
+layouts de perfiles
+filtro de promos
+imagen alta y edicion en promos
+catalogo de promos
+pagina incio
+vista checkear cliente activo ingresa dni y se corrobora
+
+
+
+
+Ajustar
+
+https://amoranimal2-nanosk.c9users.io/phpmyadmin
+https://amoranimalfer-adaptiveware.c9users.io/phpmyadmin/
+
+
+
+Acceso con ADMIN:
+
+1) Cambiar "Dashboard" por "Panel de control" / Administración / Menu 
+Listo
+
+2) Cambiar "Base de datos" por Administración
+Listo
+
+3) Cambiar "ABM Administradores" por "Gestionar Admins"
+Listo
+
+4) Eliminar la palabra ABM en todos los menús, dejar solamente Socios, Comerciantes, etc
+Listo
+
+5) Cuando entramos a un menu, por ej. Socios, dejar el menu abierto y (si se puede) agregar una especie de sub-menu (nivel 3) 
+
+Ejemplo, entramos a Socios, aparece un nivel que dice: Nuevo, Listado
+
+Si no se puede no importa, pero tratar de dejar el menu abierto =D
+mucho tiempo
+
+6) Eliminar link (en el nombre del socio que lleva a editar), los link deberían llevar a la pagina de "Detalle o Ver" no a "Editar". 
+Ocurre en todos los listados.
+
+
+7) En los listados, en la columna activo, cambiar 0 y 1 por NO y SI
+Listo 
+
+8) Con el tema del logo de una promo, debería tomar por defecto el logo del comercio 
+(o sea que no se cargue el logo de la promo, o en todo caso que sea opcional..) se entiende?
+NO se entiende
+
+9) Importante, cuando vamos, con cualquier usuario a la pagina de promos, 
+perdemos los menus, por ejemplo, si soy admin, voy a ver promos y no puedo volver al menu del "panel de control" de una forma fácil.
+No se entiende
+
+10) Cuanto estamos en un listado (cualquiera) debería desaparecer el botón listado.
+Cuando estamos creando uno nuevo, 
+    debería desaparecer el botón Nuevo. 
+Pero como te digo, son cosas con una importancia mínima, si ves que eso te va robar tiempo, 
+mas vale lo dejamos así o lo vemos después mas adelante!!!
+
+

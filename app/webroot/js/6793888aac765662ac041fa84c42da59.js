@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#submit-473539590").bind("click", function (event) {$.ajax({data:$("#submit-473539590").closest("form").serialize(), dataType:"html", success:function (data, textStatus) {$("#cartel").html(data);}, type:"post", url:"\/gimnasio\/rutinas\/guardarutinaajax"});
+return false;});});
